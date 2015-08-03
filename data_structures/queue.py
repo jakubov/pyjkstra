@@ -2,6 +2,9 @@ class Queue:
     def __init__(self):
         self.items = []
 
+    def __getitem__(self, i):
+        return self.items[i]
+
     def is_empty(self):
         return self.items == []
 
