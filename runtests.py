@@ -23,7 +23,7 @@ def main():
 
     if args.with_coverage:
         env['NOSE_WITH_COVERAGE'] = 1
-        env['NOSE_COVER_PACKAGE'] = 'pydash'
+        env['NOSE_COVER_PACKAGE'] = 'pyjkstra'
 
     nose.main(env=env)
 
