@@ -2,6 +2,7 @@ import unittest
 
 from pyjkstra.data_structures.queue import Queue
 
+
 class QueueTestCase(unittest.TestCase):
 
     def setUp(self):

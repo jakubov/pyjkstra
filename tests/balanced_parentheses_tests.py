@@ -2,6 +2,7 @@ import unittest
 
 from pyjkstra.algorithms.balanced_parentheses import BalancedParentheses
 
+
 BALANCED_STRINGS = [
     '()',
     '((()))',
@@ -22,7 +23,6 @@ bp = BalancedParentheses()
 
 
 class BalancedParenthesesTestCase(unittest.TestCase):
-
 
     def test_is_balanced(self):
         for s in BALANCED_STRINGS:

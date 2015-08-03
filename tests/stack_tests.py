@@ -2,6 +2,7 @@ import unittest
 
 from pyjkstra.data_structures.stack import Stack
 
+
 class StackTestCase(unittest.TestCase):
     def setUp(self):
         """ Init the Stack """

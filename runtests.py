@@ -17,7 +17,6 @@ def main():
     parser.add_argument("-x", "--stop", help="Stop running tests after the first error or failure", action='store_true')
     parser.add_argument("--not-local", help="We are not running the test locally, use a different config file.")
 
-
     args = parser.parse_args()
     os.environ['SERVICE_ENVIRONMENT'] = 'Testing' if args.not_local else 'TestingLocal'
 

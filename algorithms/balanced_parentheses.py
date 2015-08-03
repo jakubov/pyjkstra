@@ -1,5 +1,6 @@
 from pyjkstra.data_structures.stack import Stack
 
+
 class BalancedParentheses:
 
     def is_balanced(self, word):
